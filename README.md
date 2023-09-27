@@ -18,7 +18,7 @@ The main class in this package is `GPT2Detokenizer`. Here is a basic usage examp
 from detokenizer import GPT2Detokenizer
 
 detokenizer = GPT2Detokenizer()
-tokens = ["I", "don ", "'", "t", "know", "."]
+tokens = ["I", "don", "'", "t", "know", "."]
 print(detokenizer.detokenize(tokens))  # Expected output: "I don't know."
 ```
 
