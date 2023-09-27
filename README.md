@@ -15,7 +15,7 @@ pip install transformers
 The main class in this package is `GPT2Detokenizer`. Here is a basic usage example:
 
 ```python
-from your_module import GPT2Detokenizer  # replace with your actual module
+from detokenizer import GPT2Detokenizer
 
 detokenizer = GPT2Detokenizer()
 tokens = ["I", "don ", "'", "t", "know", "."]
